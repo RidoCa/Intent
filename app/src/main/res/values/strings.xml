@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="button_main">Send</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="text_header">Register Berhasil</string>
+    <string name="editText_main">Enter Your Name Here</string>
+    <string name="editText_main2">Enter Your Address Here</string>
+    <string name="editText_main3">Enter Your Phone Number Here</string>
+    <string name="button_second">Register</string>
+    <string name="button_share">Share</string>
+</resources>
