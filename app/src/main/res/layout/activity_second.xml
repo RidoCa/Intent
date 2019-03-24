@@ -19,10 +19,28 @@
 
     <TextView
         android:textSize="15dp"
-        android:id="@+id/text_message"
+        android:id="@+id/text_nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_header"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/text_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_nama"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/text_noHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_alamat"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin" />
 
@@ -30,7 +48,7 @@
         android:id="@+id/share_text_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text_message"
+        android:layout_below="@+id/text_noHp"
         android:onClick="shareText"
         android:text="@string/button_share" />
 

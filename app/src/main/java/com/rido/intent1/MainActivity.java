@@ -44,11 +44,13 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "Button clicked!");
 
         Intent intent = new Intent(this, SecondActivity.class);
-        String message = "Name       : "+mMessageEditText.getText().toString()+"\n"
-                +"Address   : "+mMessageEditText2.getText().toString()+"\n"
-                +"Phone      : "+mMessageEditText3.getText().toString()+"\n";
+        String nama = mMessageEditText.getText().toString();
+        String alamat = mMessageEditText2.getText().toString();
+        String noHp = mMessageEditText3.getText().toString();
 
-        intent.putExtra(EXTRA_MESSAGE, message);
+        String[] messages = new String[] {nama,alamat,noHp};
+
+        intent.putExtra(EXTRA_MESSAGE, messages);
         startActivity(intent);
     }
 }
